@@ -504,6 +504,13 @@ ninja.data = [{
           window.open("https://github.com/anh-nn01", "_blank");
         },
       },{
+        id: 'social-kaggle',
+        title: 'Kaggle',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.kaggle.com/anhnhunhat", "_blank");
+        },
+      },{
         id: 'social-linkedin',
         title: 'LinkedIn',
         section: 'Socials',
