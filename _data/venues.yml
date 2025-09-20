@@ -7,3 +7,14 @@
 
 "Vision":
   color: "#009f36"
+
+"ICML":
+  url: https://icml.cc
+  color: "#B22222"
+
+"RSE":
+  url: https://www.sciencedirect.com/journal/remote-sensing-of-environment
+  color: "#006400"
+
+"ArXiv Preprint":
+  color: "#808080"
