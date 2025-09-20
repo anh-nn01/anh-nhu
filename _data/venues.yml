@@ -16,5 +16,13 @@
   url: https://www.sciencedirect.com/journal/remote-sensing-of-environment
   color: "#006400"
 
+"AAAI":
+  url: https://aaai.org/conference/aaai/
+  color: "#000080"
+
+"ACM SIGSPATIAL":
+  url: https://www.sigspatial.org
+  color: "#000080"
+
 "ArXiv Preprint":
   color: "#808080"
