@@ -22,6 +22,7 @@
 
 "ACM SIGSPATIAL":
   url: https://www.sigspatial.org
+  color: "#ADD8E6"
 
 "ArXiv Preprint":
   color: "#808080"
