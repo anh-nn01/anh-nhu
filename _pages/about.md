@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://umd.edu/'>University of Maryland, College Park</a>.
+subtitle: 
 
 profile:
   align: right
@@ -27,7 +27,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi, I'm Anh Nhu! I am currently a second-year Ph.D. student at the <a href='https://umd.edu/'>University of Maryland, College Park</a>, where I am honored to be advised by Professor <a href='https://www.cs.umd.edu/~lin/'>Ming C. Lin</a>. My current research focuses on the intersection of world dynamics modeling, Vision-Language Models (VLMs), and robot learning, unified through adaptive sampling methods to achieve sample-efficient learning in sequential decision-making tasks. I'm also actively exploring Vision-Language Action models (VLAs) and their potential applications in real-world problems such as autonomous driving.
+Hi! I am currently a second-year Ph.D. student at the <a href='https://umd.edu/'>University of Maryland, College Park</a>, where I am honored to be advised by Professor <a href='https://www.cs.umd.edu/~lin/'>Ming C. Lin</a>. My current research focuses on the intersection of world dynamics modeling, Vision-Language Models (VLMs), and robot learning, unified through adaptive sampling methods to achieve sample-efficient learning in sequential decision-making tasks. I'm also actively exploring Vision-Language Action models (VLAs) and their potential applications in real-world problems such as autonomous driving.
 
 Before starting my Ph.D., I had the opportunity to work on various exciting <a href='https://ai4science.caltech.edu/'>AI4Science</a> topics, including Physics-Informed ML for Extreme Weather Events with Professor <a href='https://www.leiw.org/about'>Lei Wang</a> at <a href='https://www.purdue.edu/'>Purdue University</a>, Machine Learning in High-Energy Astrophysics with Dr. <a href='https://science.gsfc.nasa.gov/sci/bio/abderahmen.zoghbi'>Abderahmen Zoghbi</a> at <a href='https://www.nasa.gov/goddard/'>NASA Goddard Space Flight Center</a>, and Geospatial AI with Professor <a href='https://geog.umd.edu/facultyprofile/xie/yiqun'>Yiqun Xie</a> at University of Maryland.
 
