@@ -8,6 +8,9 @@
   booktitle={International Conference on Machine Learning},
   year={2025},
   selected={true},
+  abstract={In this work, we introduce the Time-Aware World Model (TAWM), a model-based approach that explicitly incorporates temporal dynamics. By conditioning on the time-step size, {\Delta}t, and training over a diverse range of {\Delta}t values -- rather than sampling at a fixed time-step -- TAWM learns both high- and low-frequency task dynamics across diverse control problems. Grounded in the information-theoretic insight that the optimal sampling rate depends on a system's underlying dynamics, this time-aware formulation improves both performance and data efficiency. Empirical evaluations show that TAWM consistently outperforms conventional models across varying observation rates in a variety of control tasks, using the same number of training samples and iterations. Our code can be found online at: github.com/anh-nn01/Time-Aware-World-Model.},
+  pdf={https://arxiv.org/abs/2506.08441},
+  code={https://github.com/anh-nn01/Time-Aware-World-Model},
 }
 
 @article{xie2025accounting,
@@ -20,6 +23,8 @@
   year={2025},
   publisher={Elsevier},
   selected={true},
+  abstract={Spatial variability has been one of the major challenges for large-area crop monitoring and classification with remote sensing. Recent works on deep learning have introduced spatial transformation methods to automatically partition a heterogeneous region into multiple homogeneous sub-regions during the training process. However, the framework is only designed for deep learning and is not available for other models, e.g., decision tree and random forest, which are frequently the models of choice in many crop mapping products. This paper develops a geo-aware random forest (Geo-RF) model to enable new capabilities to automatically recognize spatial variability during training, partition the space, and learn local models. Specifically, Geo-RF can capture spatial partitions with flexible shapes via an efficient bi-partitioning optimization algorithm. Geo-RF also automatically determines the number of partitions needed in a hierarchical manner via statistical tests and builds local RF models along the partitioning process to explicitly address spatial variability and improve classification quality. We used both synthetic and real-world data to evaluate the effectiveness of Geo-RF. First, through the controlled synthetic experiment, Geo-RF demonstrated the ability to capture the artificially-inserted true partition where a different relationship between the inputs and outputs is used. Second, we showed the improvements from Geo-RF using crop classification for five major crops over the contiguous US. The results demonstrated that Geo-RF is able to significantly improve classification performance in sub-regions that are otherwise compromised in a single RF model. For example, the partition around downstream Mississippi for soybean classification led to major improvements for about 0.10-0.25 in F1 scores in the area, and the score increased from 0.57 to 0.82 at certain locations. Similarly, for rice classification, the partition in Arkansas led to F1 scores increasing from 0.59 to 0.88 in local areas. In addition, we evaluated the models under different parameter settings, and the results showed that Geo-RF led to improvements over RF in the vast majority of scenarios (e.g., varying model complexity and training sizes). Computationally, Geo-RF took about one to three times more training time while its execution time during testing was similar to that of RF. Overall, Geo-RF showed the ability to automatically address spatial variability via partitioning optimization, which is an important skill for improving crop classification over heterogeneous geographic areas at large scale. Future research can explore the use of Geo-RF for other geographic regions and applications, interpretable methods to understand the data-driven partitioning, and new designs to further enhance the computational efficiency.},
+  pdf={https://www.sciencedirect.com/science/article/abs/pii/S0034425724006114}
 }
 
 @misc{phan2025humanitysexam,
@@ -31,6 +36,8 @@
       archivePrefix={arXiv},
       primaryClass={cs.LG},
       url={https://arxiv.org/abs/2501.14249}, 
+      abstract={Benchmarks are important tools for tracking the rapid advancements in large language model (LLM) capabilities. However, benchmarks are not keeping pace in difficulty: LLMs now achieve over 90\% accuracy on popular benchmarks like MMLU, limiting informed measurement of state-of-the-art LLM capabilities. In response, we introduce Humanity's Last Exam (HLE), a multi-modal benchmark at the frontier of human knowledge, designed to be the final closed-ended academic benchmark of its kind with broad subject coverage. HLE consists of 2,500 questions across dozens of subjects, including mathematics, humanities, and the natural sciences. HLE is developed globally by subject-matter experts and consists of multiple-choice and short-answer questions suitable for automated grading. Each question has a known solution that is unambiguous and easily verifiable, but cannot be quickly answered via internet retrieval. State-of-the-art LLMs demonstrate low accuracy and calibration on HLE, highlighting a significant gap between current LLM capabilities and the expert human frontier on closed-ended academic questions. To inform research and policymaking upon a clear understanding of model capabilities, we publicly release HLE at https://lastexam.ai/.},
+      pdf={https://arxiv.org/abs/2501.14249},
 }
 
 @inproceedings{nhu2024bertground,
@@ -44,6 +51,9 @@
   year={2024},
   organization={AAAI},
   selected={true},
+  abstract={The Neutron star Interior Composition Explorer (NICER) is an International Space Station (ISS)-based Space Telescope developed by NASA and devoted to the study of high-energy X-Ray sources in the universe, including but not limited to neutron stars, pulsars, and black holes in stellar systems and active galactic nuclei (AGN). One prominent problem with NICER observations is the highly variable background spectra, obscuring actual signals of astrophysical sources and negatively affecting scientific analysis of the targets. Therefore, obtaining accurate estimations of the background spectra is crucial to filter the noise and facilitate better scientific discoveries of new astronomical objects. In this paper, we propose the very first Deep Neural Network architecture to model the NICER background spectra variation using information about the spacecraft and telescope associated with each observation. In particular, we develop a BERT-based architecture with tokenizers applied to different groups of features in our tabular dataset. We also introduce an adapted Tabular Deep Residual Network architecture as the predictor following the Transformer modules in our network. We show that our model outperforms the current state-of-the-art background model developed by the NICER team in most evaluation metrics. Finally, we discuss pathways and future work for the deployment of this model on NASA’s next versions of HEASARC Software packages.},
+  pdf={https://ojs.aaai.org/index.php/AAAI/article/view/30335},
+  code={https://github.com/anh-nn01/NICER_background_estimation},
 }
 
 @inproceedings{nhu2023physics,
@@ -53,7 +63,10 @@
   booktitle={International Conference on Machine Learning and Applications (ICMLA)},
   pages={422--429},
   year={2023},
-  organization={IEEE}
+  organization={IEEE},
+  abstract={The suspension system is a crucial part of the automotive chassis, improving vehicle ride comfort and isolating passengers from rough road excitation. Unlike passive suspension, which has constant spring and damping coefficients, active suspension incorporates electronic actuators into the system to dynamically control stiffness and damping variables. However, effectively controlling the suspension system poses a challenging task that necessitates real-time adaptability to various road conditions. This paper presents the Physics-Guided Deep Reinforcement Learning (DRL) for adjusting an active suspension system's variable kinematics and compliance properties for a quarter-car model in real time. Specifically, the outputs of the model are defined as actuator stiffness and damping control, which are bound within physically realistic ranges to maintain the system's physical compliance. The proposed model was trained on stochastic road profiles according to ISO 8608 standards to optimize the actuator's control policy. According to qualitative results on simulations, the vehicle body reacts smoothly to various novel real-world road conditions, having a much lower degree of oscillation. These observations mean a higher level of passenger comfort and better vehicle stability. Quantitatively, DRL outperforms passive systems in reducing the average vehicle body velocity and acceleration by 43.58% and 17.22%, respectively, minimizing the vertical movement impacts on the passengers. The code is publicly available at https://github.com/anh-nn01/RL4Suspension-ICMLA23.},
+  pdf={https://arxiv.org/abs/2408.08425},
+  code={https://github.com/anh-nn01/RL4Suspension-ICMLA23},
 }
 
 @inproceedings{nhu2023comprehensive,
@@ -63,7 +76,9 @@
   booktitle={IEEE International Performance, Computing, and Communications Conference (IPCCC)},
   pages={168--177},
   year={2023},
-  organization={IEEE}
+  organization={IEEE},
+  abstract={Video games is one of the most popular multimedia forms and generate higher profits than the traditional film industry. In the meantime, with the advances of deep learning, computer vision algorithms have become more powerful for analyzing the video content and have been applied in the FPS video games as an advanced cheating tools, which have taken the video games industry by storm. Such algorithms, including the object detection and human pose estimations, could analyze and understand the video content in each frame and further help the player to automatically identify and aim at the enemies with extremely fast reaction. Compared to the classic cheating tools, computer-vision-based cheating tools are harder to detect and defend against because they do not need to manipulate the software or the system but purely simulate how a well trained and skilled human gamer plays the video game. In this paper, we propose a proactive and comprehensive defense approach, which generates perturbations that are not perceptible to humans yet can still mislead the computer vision algorithms. More specifically, this comprehensive approach includes two parts, the defense approach aims to fail the computer vision-based cheating tools to detect the in-game characters while the penalty approach aims to fool the computer vision-based cheating tools to detect the fake regions as in-game characters, which not only worsen the cheating experience but also serve as a trigger for detecting the cheating behavior. In this work, we first implement the object detection based cheating tools as the evaluation environment. Then, we implement our proposed defense, penalty and comprehensive approaches and evaluate the performance with four popular video games. The results show that our comprehensive approach obtains a high success rate with minor impact to user experience quality.},
+  pdf={https://ieeexplore.ieee.org/document/10253881},
 }
 
 @inproceedings{nhu2023towards,
@@ -75,6 +90,9 @@
   year={2023},
   organization={ACM},
   selected={true},
+  abstract={While deep learning models have high representation power and promising performances, there is often a lack of evidence to interpret potential reasons behind the predictions, which is a major concern limiting their usability for scientific discovery. We propose a Neural Additive Convolutional Neural Network (NA-CNN) to enhance the interpretability of the model to facilitate scientific discoveries in climate science. To investigate the interpretation quality of NA-CNN, we perform experiments on the El Niño identification task where the ground truth for El Niño patterns is known and can be used for validation. Experiment results show that compared to Spatial Attention and state-of-the-art post-hoc explanation techniques, NA-CNN has higher interpretation precision, remarkably improved physical consistency, and reduced redundancy. These qualities provide an encouraging ground for domain scientists to focus their analysis on potentially relevant patterns and derive laws governing phenomena with unknown physical processes.},
+  pdf={https://dl.acm.org/doi/10.1145/3589132.3628369},
+  code={https://github.com/anh-nn01/Neural-Additive-CNN},
 }
 
 @inproceedings{nhuexploring,
@@ -83,6 +101,8 @@
   author={Nhu, Anh N. and Wang, Lei},
   booktitle={1st Workshop on the Synergy of Scientific and Machine Learning Modeling @ ICML 2023},
   year={2023},
+  abstract={Atmospheric blocking is an atmospheric flow pattern that is quasi-stationary, self-sustaining, and long-lasting that effectively blocks the prevailing westerly atmospheric flows. This blocking is directly linked to large-scale extreme events such as heat waves, yet there is no confirmed study on the precursor patterns that signal atmospheric blocking’s evolution. In this paper, we investigate the combination of physics, Convolutional Neural Network (CNN), and eXplainable Artificial Intelligence (XAI) to form a scientific hypothesis: precursor patterns of atmospheric blocking do exist. To investigate the predictability and search for signals of the existence of precursor blocking patterns, we integrated the Two-Layer Quasi Geostrophic (QG) Model, an idealized model of atmospheric evolution, into the training process of CNN and predict atmospheric blocking, reaching the prediction accuracy of 95%, 88%, and 72% at 1, 5, and 12 lead days, respectively. Next, we employ XAI to highlight spatial patterns that guide CNN’s prediction. The resulting composite patterns highlighted by XAI algorithms are physically consistent with the composite ground truth observations at different lead days. This work hypothesizes the existence of atmospheric blocking’s precursor patterns, motivating future fundamental research directions focusing specifically on these precursor patterns.},
+  pdf={https://openreview.net/forum?id=PUxxUVHSJu#all},
 }
 
 
