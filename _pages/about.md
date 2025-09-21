@@ -31,3 +31,5 @@ Hi! I am a second-year CS Ph.D. student at the <a href='https://umd.edu/'>Univer
 Before starting my Ph.D., I had the opportunity to work on various exciting <a href='https://ai4science.caltech.edu/'>AI4Science</a> topics, including Physics-Informed ML for Extreme Weather Events with <a href='https://www.leiw.org/about'>Professor Lei Wang</a> at <a href='https://www.purdue.edu/'>Purdue University</a>, Machine Learning in High-Energy Astrophysics with <a href='https://science.gsfc.nasa.gov/sci/bio/abderahmen.zoghbi'>Dr. Abderahmen Zoghbi</a> at <a href='https://www.nasa.gov/goddard/'>NASA Goddard Space Flight Center</a>, and Geospatial AI with <a href='https://geog.umd.edu/facultyprofile/xie/yiqun'>Professor Yiqun Xie</a> at University of Maryland.
 
 I’m always open to potential collaborations, research discussions, and new opportunities. Please feel free to reach out if you’re interested in my works or would like to collaborate on potential projects!
+
+I'm actively looking for <span style="color:red;">part-time/full-time internship opportunities starting from Summer 2026</span>. Please feel free to reach out if you think I could be a good fit to your team!
