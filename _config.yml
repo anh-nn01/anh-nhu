@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
+title: Anh N. Nhu # the website title (if blank, full name will be used instead)
 first_name: Anh
 middle_name: N.
 last_name: Nhu
@@ -264,8 +264,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Nhu]
+  first_name: [Anh, Anh N., Anh Nhat]
 
   style: apa
   locale: en
