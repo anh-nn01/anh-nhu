@@ -22,6 +22,10 @@
   - firstname: ["Sergii", "Sergii Skakun"]
     url: https://geog.umd.edu/facultyprofile/skakun/sergii
 
+"wang":
+  - firstname: ["lei"]
+    url: https://www.leiw.org/about
+
 "podolsky":
   - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
     url: https://en.wikipedia.org/wiki/Boris_Podolsky
