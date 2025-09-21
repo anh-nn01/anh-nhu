@@ -1,12 +1,12 @@
-"ming":
+"lin":
   - firstname: ["Ming", "Ming Lin", "Ming C. Lin"]
     url: https://scholar.google.com/citations?user=ugFNit4AAAAJ&hl=en
 
-"sanghyun":
+"son":
   - firstname: ["Sanghyun", "Sang", "Sanghyun Son"]
     url: https://sanghyun.phd.sh/
 
-"laura":
+"zheng":
   - firstname: ["Laura", "Laura Yu Zheng", "Laura Zheng"]
     url: https://laurayuzheng.github.io/
 
@@ -14,11 +14,11 @@
   - firstname: ["Abderahmen", "Abderahmen Zoghbi"]
     url: https://science.gsfc.nasa.gov/sci/bio/abderahmen.zoghbi
 
-"yiqun":
+"xie":
   - firstname: ["Yiqun", "Yiqun Xie"]
     url: https://www.terpconnect.umd.edu/~xie/
 
-"sergii":
+"skakun":
   - firstname: ["Sergii", "Sergii Skakun"]
     url: https://geog.umd.edu/facultyprofile/skakun/sergii
 
