@@ -26,3 +26,7 @@
 
 "ArXiv Preprint":
   color: "#808080"
+
+"CVPR":
+  url: https://cvpr.thecvf.com/
+  color: "#3d1b94"
