@@ -1,10 +1,14 @@
 "lin":
-  - firstname: ["Ming", "Ming Lin", "Ming C. Lin"]
+  - firstname: ["Ming", "Ming Lin", "Ming C. Lin", "Ming C Lin"]
     url: https://scholar.google.com/citations?user=ugFNit4AAAAJ&hl=en
 
 "son":
   - firstname: ["Sanghyun", "Sang", "Sanghyun Son"]
     url: https://sanghyun.phd.sh/
+
+"nguyen":
+  - firstname: ["Phuc", "Phuc DA", "Phuc D.A."]
+    url: https://phucnda.github.io/
 
 "zheng":
   - firstname: ["Laura", "Laura Yu Zheng", "Laura Zheng"]
