@@ -32,4 +32,4 @@ Before starting my Ph.D., I had the opportunity to work on various exciting <a h
 
 I’m always open to potential collaborations, research discussions, and new opportunities. Please feel free to reach out if you’re interested in my works or would like to collaborate on potential projects!
 
-<h4>🔔 News: I will be joining Google DeepMind as a Student Researcher, working with <a href='https://scholar.google.com/citations?user=eLrjdhcAAAAJ&hl=en'>David Rendleman</a>, starting from Jun. 2026! </h4>
+<h5>🔔 News: I will be joining Google DeepMind as a Student Researcher, working with <a href='https://scholar.google.com/citations?user=eLrjdhcAAAAJ&hl=en'>David Rendleman</a>, starting from Jun. 2026! </h5>
