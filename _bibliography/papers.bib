@@ -1,6 +1,18 @@
 ---
 ---
 
+@article{nguyen2026openvo,
+  abbr = {CVPR},
+  title={OpenVO: Open-World Visual Odometry with Temporal Dynamics Awareness},
+  author={Nguyen*, Phuc DA and Nhu*, Anh N and Lin, Ming C},
+  journal={IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  pdf={https://arxiv.org/abs/2602.19035},
+  website={https://openvo.github.io/},
+  abs={We introduce OpenVO, a novel framework for Open-world Visual Odometry (VO) with temporal awareness under limited input conditions. OpenVO effectively estimates real-world-scale ego-motion from monocular dashcam footage with varying observation rates and uncalibrated cameras, enabling robust trajectory dataset construction from rare driving events recorded in dashcam. Existing VO methods are trained on fixed observation frequency (e.g., 10Hz or 12Hz), completely overlooking temporal dynamics information. Many prior methods also require calibrated cameras with known intrinsic parameters. Consequently, their performance degrades when (1) deployed under unseen observation frequencies or (2) applied to uncalibrated cameras. These significantly limit their generalizability to many downstream tasks, such as extracting trajectories from dashcam footage. To address these challenges, OpenVO (1) explicitly encodes temporal dynamics information within a two-frame pose regression framework and (2) leverages 3D geometric priors derived from foundation models. We validate our method on three major autonomous-driving benchmarks - KITTI, nuScenes, and Argoverse 2 - achieving more than 20 performance improvement over state-of-the-art approaches. Under varying observation rate settings, our method is significantly more robust, achieving 46%-92% lower errors across all metrics. These results demonstrate the versatility of OpenVO for real-world 3D reconstruction and diverse downstream applications.}
+  selected={true},
+  year={2026},
+}
+
 @inproceedings{nhu2025time,
   abbr = {ICML},
   title={Time-Aware World Model for Adaptive Prediction and Control},
@@ -104,18 +116,6 @@
   year={2023},
   abstract={Atmospheric blocking is an atmospheric flow pattern that is quasi-stationary, self-sustaining, and long-lasting that effectively blocks the prevailing westerly atmospheric flows. This blocking is directly linked to large-scale extreme events such as heat waves, yet there is no confirmed study on the precursor patterns that signal atmospheric blocking’s evolution. In this paper, we investigate the combination of physics, Convolutional Neural Network (CNN), and eXplainable Artificial Intelligence (XAI) to form a scientific hypothesis: precursor patterns of atmospheric blocking do exist. To investigate the predictability and search for signals of the existence of precursor blocking patterns, we integrated the Two-Layer Quasi Geostrophic (QG) Model, an idealized model of atmospheric evolution, into the training process of CNN and predict atmospheric blocking, reaching the prediction accuracy of 95%, 88%, and 72% at 1, 5, and 12 lead days, respectively. Next, we employ XAI to highlight spatial patterns that guide CNN’s prediction. The resulting composite patterns highlighted by XAI algorithms are physically consistent with the composite ground truth observations at different lead days. This work hypothesizes the existence of atmospheric blocking’s precursor patterns, motivating future fundamental research directions focusing specifically on these precursor patterns.},
   pdf={https://openreview.net/forum?id=PUxxUVHSJu#all},
-}
-
-@article{nguyen2026openvo,
-  abbr = {CVPR},
-  title={OpenVO: Open-World Visual Odometry with Temporal Dynamics Awareness},
-  author={Nguyen*, Phuc DA and Nhu*, Anh N and Lin, Ming C},
-  journal={IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-  pdf={https://arxiv.org/abs/2602.19035},
-  website={https://openvo.github.io/},
-  abs={We introduce OpenVO, a novel framework for Open-world Visual Odometry (VO) with temporal awareness under limited input conditions. OpenVO effectively estimates real-world-scale ego-motion from monocular dashcam footage with varying observation rates and uncalibrated cameras, enabling robust trajectory dataset construction from rare driving events recorded in dashcam. Existing VO methods are trained on fixed observation frequency (e.g., 10Hz or 12Hz), completely overlooking temporal dynamics information. Many prior methods also require calibrated cameras with known intrinsic parameters. Consequently, their performance degrades when (1) deployed under unseen observation frequencies or (2) applied to uncalibrated cameras. These significantly limit their generalizability to many downstream tasks, such as extracting trajectories from dashcam footage. To address these challenges, OpenVO (1) explicitly encodes temporal dynamics information within a two-frame pose regression framework and (2) leverages 3D geometric priors derived from foundation models. We validate our method on three major autonomous-driving benchmarks - KITTI, nuScenes, and Argoverse 2 - achieving more than 20 performance improvement over state-of-the-art approaches. Under varying observation rate settings, our method is significantly more robust, achieving 46%-92% lower errors across all metrics. These results demonstrate the versatility of OpenVO for real-world 3D reconstruction and diverse downstream applications.}
-  selected={true},
-  year={2026},
 }
 
 
