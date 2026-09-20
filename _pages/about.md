@@ -5,7 +5,7 @@ permalink: /
 
 profile:
   align: right
-  image: anh.JPG
+  image: me.jpeg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>IRB 5120, Iribe Center</p>
