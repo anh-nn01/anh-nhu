@@ -34,3 +34,7 @@
 "Nature":
   url: https://www.nature.com/
   color: "#01040a"
+
+"EMNLP":
+  url: https://2026.emnlp.org/
+  color: "#824522"
